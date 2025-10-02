@@ -13,7 +13,7 @@
           <p class="font-medium text-gray-900">{{ cep.cep }}</p>
           <p class="text-sm text-gray-600">{{ formatLocation(cep) }}</p>
         </div>
-        <span class="text-blue-600">&rarr;</span>
+        <span class="text-secondary-600">&rarr;</span>
       </div>
     </div>
     <p v-else class="text-center text-gray-500">

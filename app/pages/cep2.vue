@@ -25,7 +25,7 @@
       </div>
 
       <!-- Error Message -->
-      <div v-if="error" class="mt-4 p-4 bg-red-50 text-red-600 rounded-lg">
+      <div v-if="error" class="mt-4 p-4 bg-primary-50 text-primary-600 rounded-lg">
         {{ error }}
       </div>
     </div>
