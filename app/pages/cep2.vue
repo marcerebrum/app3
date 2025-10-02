@@ -1,0 +1,53 @@
+<template>
+  <div class="min-h-screen bg-gray-50 py-12 px-4">
+    <div class="max-w-2xl mx-auto">
+      <!-- Search Form -->
+      <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+        <div class="flex gap-4">
+          <div class="flex-1">
+            <BaseInput
+              v-model="cep"
+              placeholder="Digite o CEP (somente números)"
+              :maxLength="8"
+              @keyup.enter="handleSearch"
+            />
+          </div>
+          <BaseButton
+            @click="handleSearch"
+            :disabled="loading"
+          >
+            <template #icon-left>
+              <span v-if="loading" class="inline-block animate-spin">⌛</span>
+            </template>
+            {{ loading ? 'Buscando...' : 'Buscar' }}
+          </BaseButton>
+        </div>
+      </div>
+
+      <!-- Error Message -->
+      <div v-if="error" class="mt-4 p-4 bg-red-50 text-red-600 rounded-lg">
+        {{ error }}
+      </div>
+    </div>
+
+    <!-- CEP Details -->
+    <CepDetails :cep-details="cepData" />
+  </div>
+</template>
+
+<script setup lang="ts">
+import BaseInput from '../components/BaseInput.vue'
+import BaseButton from '../components/BaseButton.vue'
+import CepDetails from '../components/CepDetails.vue'
+
+const cep = ref('')
+const { loading, error, cepData, fetchCep } = useCepService()
+
+const handleSearch = async () => {
+  if (!cep.value) {
+    alert('Informe o CEP')
+    return
+  }
+  await fetchCep(cep.value)
+}
+</script>
