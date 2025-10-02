@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto">
       <!-- Header -->
       <header class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-gray-900 mb-2">Principais Cidades</h1>
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">Principais Cidades do Brasil</h1>
         <p class="text-lg text-gray-600">Explore informações das principais cidades brasileiras</p>
       </header>
 
