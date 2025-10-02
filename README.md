@@ -1,75 +1,20 @@
-# Nuxt Minimal Starter
+# DESCRIÇÃO DO PROJETO
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Preenchimento automático de CEP integrado com ViaCEP.
 
-## Setup
+# LINK DO PROJETO
 
-Make sure to install dependencies:
 
-```bash
-# npm
-npm install
+# FERRAMENTAS UTILIZADAS
 
-# pnpm
-pnpm install
+Nuxt.JS - framework javascript
+VSCODE - IDE para desenvolvimento com Vibe Code
+LLM - Claude Sonnet 3.5
+Github - versionamento e automação da publicação.
+Vercel - hospedagem com deploy automatico com base nas atualizações do Github
 
-# yarn
-yarn install
+# PROCESSO DE DESENVOLVIMENTO
+-- Desenvolvimento com base na framework Nuxt.JS, prezando pelo conceito de componentização
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# MAIS INFORMAÇÕES
+https://cerebrum.com.br/
