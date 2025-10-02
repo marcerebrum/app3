@@ -1,6 +1,6 @@
 # DESCRIÇÃO DO PROJETO
 
-Preenchimento automático de CEP integrado com ViaCEP.
+Preenchimento automático de CEP integrado com [ViaCEP](https://viacep.com.br/).
 
 # LINK DO PROJETO
 
@@ -14,7 +14,7 @@ Github - versionamento e automação da publicação.
 Vercel - hospedagem com deploy automatico com base nas atualizações do Github
 
 # PROCESSO DE DESENVOLVIMENTO
--- Desenvolvimento com base na framework Nuxt.JS, prezando pelo conceito de componentização
+** Desenvolvimento com base na framework Nuxt.JS, prezando pelo conceito de componentização
 
 # MAIS INFORMAÇÕES
 https://cerebrum.com.br/
